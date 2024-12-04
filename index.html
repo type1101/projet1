@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" c   le>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
@@ -11,6 +11,7 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
+    <title>site</title>
 </head>
 
 <body>
@@ -20,18 +21,18 @@
                 <img src="./images/logo/Booki.png" alt="logoBooki">
             </div>
             <nav>
-                <a href="">Hebergements</a>
-                <a href="">Activités</a>
+                <a href="#hebergement">Hebergements</a>
+                <a href="#activite">Activités</a>
             </nav>
         </header>
     
         <section class = "recherche">
             <div class="titre">
-                <h1>Touvez votre hebergement pour des vacances de reves</h1>
+                <h1>Touvez votre hebergement pour des vacances de reve</h1>
                 <p>En plein centre ou en pleine nature</p>
             </div>
             <div class="search">
-                <form class="location" action="" method="get">
+                <form class="location" action="#" method="get">
                     <i class="fa-solid fa-location-dot" style="color: black;"></i>
                     <input type="text" name="destination" class="search-input" placeholder="Marseille, France">
                     <button type="submit" class="search-button">Rechercher</button>
@@ -39,23 +40,29 @@
             </div>
             <div class="filter-container">
                 <h2>Filtres</h2>
-                <div class="barre-filtres">
-                  <span class="filter-button" id="economique">
-                    <i class="icon fa fa-money-bill-wave"></i> Économique
-                  </span>
-                  <span class="filter-button" id="familial">
-                    <i class="icon fa fa-user-friends"></i> Familial
-                  </span>
-                  <span class="filter-button" id="romantique">
-                    <i class="icon fa fa-heart"></i> Romantique
-                  </span>
-                  <span class="filter-button" id="pepite">
-                    <i class="icon fa fa-fire"></i> Nos pépites
-                  </span>
+                    <div class="barre-filtres">
+                    <span class="filter-button" id="economique">
+                        <i class="icon fa fa-money-bill-wave"></i> Économique
+                    </span>
+                    <span class="filter-button" id="familial">
+                     <i class="icon fa fa-user-friends"></i> Familial
+                    </span>
+                    <span class="filter-button" id="romantique">
+                        <i class="icon fa fa-heart"></i> Romantique
+                    </span>
+                    <span class="filter-button" id="pepite">
+                        <i class="icon fa fa-fire"></i> Nos pépites
+                    </span>
                 </div>
               </div> 
- 
-              <span class="info" ><i class="fa-solid fa-info"></i> </span> 
+
+            <div class="information">
+                <span class="info" >
+                    <i class="fa-solid fa-info"></i>
+                </span>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+
       
         </section>
 
@@ -64,7 +71,7 @@
         
         <main>
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section class="hebergements" id="hebergement">
                     <h2 class="section-title">Hébergements à Marseille</h2>
                     <div class="hebergement-cards">
                         <a href="#" class="taille">
@@ -182,6 +189,7 @@
                             </article>
                         </a>
                     </div>
+                    <a href="#"><h3>Afficher plus</h3></a>
                 </section>
 
 
@@ -267,8 +275,59 @@
                     </div>
                 </section>
             </div>
-            <div class="Activites">
-                <h2 class="section-title">Activités à Marseille</h2>
+
+            <div class="Activites" id="activite">
+                <h2> Activités à Marseille </h2>
+                <div class="Activite-container">
+                    <a href="#" class="Activites-card">
+                        <article class="card-Act">
+                            <img src="./images/activites/reno-laithienne.jpg" alt="Image Vieux Port">
+                            <div class="card-content">
+                                <div class="cart-title">
+                                    <h3 class="card-title"> Vieux Port</h3>
+                                </div>
+
+                            </div>
+
+                        </article>
+                    </a>
+                    <a href="#" class="Activites-card">
+                        <article class="card-Act">
+                            <img src="./images/activites/paul-hermann.jpg" alt="Image Vieux Port">
+                            <div class="card-content">
+                                <div class="cart-title">
+                                    <h3 class="card-title"> Fort de Pomègues</h3>
+                                </div>
+
+                            </div>
+
+                        </article>
+                    </a>
+                    <a href="#" class="Activites-card">
+                        <article class="card-Act">
+                            <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image Vieux Port">
+                            <div class="card-content">
+                                <div class="cart-title">
+                                    <h3 class="card-title"> Parc national des Calanques</h3>
+                                </div>
+
+                            </div>
+
+                        </article>
+                    </a>
+                    <a href="#" class="Activites-card">
+                        <article class="card-Act">
+                            <img src="./images/activites/florian-wehde.jpg" alt="Image Vieux Port">
+                            <div class="card-content">
+                                <div class="cart-title">
+                                    <h3 class="card-title"> Notre-Dame-de-la-Garde</h3>
+                                </div>
+
+                            </div>
+
+                        </article>
+                    </a>
+                </div>
 
             </div>
         </main>
