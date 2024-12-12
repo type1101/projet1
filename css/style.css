@@ -15,13 +15,15 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 2%;
+    margin-top: 1%;
 }
 
 
 .logo img {
     width: 70px; 
     height: auto;
-    padding-left: 40%;
+    padding-left: 39%;
 }
 
 
@@ -30,21 +32,35 @@ nav a {
     padding-right: 40px;
 }
 
+.linkH:hover{
+    border-top: 1px solid;
+    border-color: #0065FC;
+    color: #0065FC;
+}
+
+.linkA:hover{
+    border-top: 1px solid;
+    border-color: #0065FC;
+    color: #0065FC;
+}
+
 .recherche {
-    padding-left: 5%;
+    padding-left: 2%;
 }
 
 .recherche h1 {
-    font-size: 20px; 
+    font-size: 22px; 
     font-weight: 700; 
     color: #000; 
 }
 
 .recherche p {
     font-size: 16px; 
-    color: #666; 
+    color: #000000; 
     margin-top: 5px; 
+    font-weight: 400;
 }
+
 
 .location {
     display: flex;
@@ -53,19 +69,28 @@ nav a {
     background-color: white;
 }
     
-.fa-location-dot {
+.fa-location-dot  {
     font-size: 18px;
     padding: 15px;
     border-radius: 20px 0px 0px 20px;
-    color: black;
+    color: black !important;
     background-color: #c1c4ca;
+}
+
+
+.search-bar{
+    display: flex;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 .search-input {
     border: none;
     padding: 5px;
     border-radius: 20px 0 0 20px;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
 }
 
 .search-button {
@@ -95,6 +120,7 @@ nav a {
     display: flex;
     align-items: center;
     gap: 20px;
+    margin-bottom: 2%;
   }
 
 .filter-button {
@@ -120,7 +146,6 @@ nav a {
 .info {
     border-radius: 50px;
     border:2px solid #afafaf; 
-    margin-left: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,6 +202,10 @@ a {
     font-size: 16px;
 }
 
+.cart-title{
+    margin-left: 2%;
+}
+
 .euro {
     font-weight: 700;
 }
@@ -190,6 +219,8 @@ a {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .hebergements-and-populaires section {
@@ -199,22 +230,28 @@ a {
     box-sizing: border-box;
 }
 
+.More{
+    display: flex;
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: larger;
+}
+
 
 .taille {
     flex: 0 0 calc(33% - 15px);
 }
 
-.Activites{
-    display: flex;
-    flex-direction: column;
-}
 
 .Activites {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .Activite-container{
@@ -242,7 +279,7 @@ a {
 
 .footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #F2F2F2;
     padding: 20px;
     font-family: Arial, sans-serif;
