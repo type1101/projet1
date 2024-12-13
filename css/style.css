@@ -296,7 +296,9 @@ a {
 
 .space {
     text-align: left;
-    color: #3b3b3b;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .space h4 {
@@ -313,6 +315,12 @@ a {
 
 .space a:hover {
     color: #555;
+}
+
+.title-footer{
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
 }
 
 
