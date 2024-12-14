@@ -26,6 +26,12 @@ header {
     padding-left: 39%;
 }
 
+.tabs{
+    display: flex;
+    gap: 100px;
+    font-size: 19px;
+}
+
 
 nav a {
     justify-content: space-between;
@@ -41,6 +47,10 @@ nav a {
     border-top: 1px solid;
     border-color: #0065FC;
     color: #0065FC;
+}
+
+.linkA{
+    margin-right: 24px;
 }
 
 .recherche {
@@ -490,6 +500,13 @@ a {
         justify-content: center;
     }
 
+    nav a{
+        display: flex;
+        justify-content: center;
+        flex: 1;
+        margin-left: 5%;
+    }
+
     .titre{
         font-size: 22px;
 
@@ -548,7 +565,7 @@ a {
         margin-right: 5%;
     }
 
-
+    
 
 
     .hebergements-and-populaires{
