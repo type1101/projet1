@@ -29,7 +29,6 @@ header {
 
 nav a {
     justify-content: space-between;
-    padding-right: 40px;
 }
 
 .linkH:hover{
@@ -86,7 +85,6 @@ nav a {
 
 .search-input {
     border: none;
-    padding: 5px;
     border-radius: 20px 0 0 20px;
     font-size: 18px;
     font-weight: 700;
@@ -492,6 +490,11 @@ a {
         justify-content: center;
     }
 
+    .titre{
+        font-size: 22px;
+
+    }
+
     .recherche h1{
         font-size: xx-large;
     }
@@ -507,13 +510,15 @@ a {
         font-size: larger;
         color: #000;
         font-weight: 700;
+        margin-left: 2%;
     
     }
     .fa-location-dot{
         display: flex;
-        font-size: larger;
+        font-size: x-large;
         justify-content: center;
-        width: 30px;
+        align-items: center;
+        width: 36px;
         background-color: #F2F2F2;
     }
 
@@ -523,6 +528,24 @@ a {
 
     .fa-magnifying-glass{
         display: inline;
+        color: #ffffff;
+        font-size: larger;
+        border: none;
+        background: #0065FC;
+        width: 73px;
+        border-radius: inherit;
+        height: 71px;
+        box-shadow: 0px 4px 4px #00000040;
+    }
+
+    .location{
+        width: 500px;
+        height: 70px;
+    }
+
+    .recherche{
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
 
