@@ -1,7 +1,6 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
-    border: 1px solid;
 }
 
 
@@ -33,9 +32,6 @@ header {
 }
 
 
-nav a {
-    justify-content: space-between;
-}
 
 .linkH:hover{
     border-top: 1px solid;
@@ -493,15 +489,9 @@ a {
         margin-top: 20px;
     }
 
-    nav{
-        display: flex;
-        font-size: x-large;
-        gap: 120px;
-        justify-content: center;
-    }
 
     nav a{
-        display: flex;
+        display: grid;
         justify-content: center;
         flex: 1;
         margin-left: 5%;
@@ -510,6 +500,20 @@ a {
     .titre{
         font-size: 22px;
 
+    }
+
+    .linkH:hover{
+        border-bottom: 1px solid;
+        border-color: #0065FC;
+        border-top: none;
+        height: 35px;
+    }
+
+    .linkA:hover{
+        border-bottom: 1px solid;
+        border-color: #0065FC;
+        border-top: none;
+        height: 35px;
     }
 
     .recherche h1{
@@ -620,6 +624,11 @@ a {
         font-size: larger;
         color: #000000;
         font-weight: 700;
+    }
+
+    .hebergements-and-populaires{
+        margin-left: 0%;
+        margin-right: 0%;
     }
 
     .hebergements-and-populaires section{
